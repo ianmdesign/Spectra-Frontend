@@ -37,8 +37,8 @@ jobs:
           push: true
           platforms: linux/amd64, linux/arm64
           tags: |
-            ghcr.io/valospectra/overlay:latest
-            ghcr.io/valospectra/overlay:${{ env.RELEASE_TAG }}
+            ghcr.io/ianmdesign/valorantesportsoverlay:latest
+            ghcr.io/ianmdesign/valorantesportsoverlay:${{ env.RELEASE_TAG }}
 
 
             
